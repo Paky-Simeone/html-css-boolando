@@ -71,4 +71,83 @@ main{
     height: 450px;
     min-width: 100px;
     width: 300px;
+    box-shadow: 0px 1px 3px 2px rgba(0,0,0,0.43);
 }
+
+/*Prima Foto*/
+
+.main-container > div:nth-child(1) {
+    display: block;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(1):hover{
+    cursor: pointer;
+    background-image: url(../img/1b.webp);
+} 
+
+/*Seconda Foto*/
+
+.main-container > div:nth-child(2) {
+    display: block;
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(2):hover{
+    cursor: pointer;
+    background-image: url(../img/2b.webp);
+} 
+
+/*Terza Foto*/
+
+.main-container > div:nth-child(3) {
+    display: block;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(3):hover{
+    cursor: pointer;
+    background-image: url(../img/3b.webp);
+} 
+
+/*Quarta Foto*/
+
+.main-container > div:nth-child(4) {
+    display: block;
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(4):hover{
+    cursor: pointer;
+    background-image: url(../img/4b.webp);
+} 
+
+/*Quinta Foto*/
+
+.main-container > div:nth-child(5) {
+    display: block;
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(5):hover{
+    cursor: pointer;
+    background-image: url(../img/5b.webp);
+} 
+
+/*Sesta Foto*/
+
+.main-container > div:nth-child(6) {
+    display: block;
+    background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+.main-container > div:nth-child(6):hover{
+    cursor: pointer;
+    background-image: url(../img/6b.webp);
+} 
