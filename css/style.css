@@ -151,3 +151,28 @@ main{
     cursor: pointer;
     background-image: url(../img/6b.webp);
 } 
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+footer > .footer-container{
+    display: inline-block;
+    height: 80px;
+    width: 940px;
+    background-color: green;
+}
+
+footer > .footer-container:nth-child(1){
+    width: 30px;
+    height: 40px;
+}
+
