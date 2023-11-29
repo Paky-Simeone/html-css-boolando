@@ -29,9 +29,9 @@ nav > .nav-container{
 
 .nav-container > .logo-container{
     text-align: center;
-    width: 300px;
+    width: 150px;
     /*Debug*/
-    min-width: 200px;
+    min-width: 100px;
 }
 
 .nav-container > .logo-container > img{
@@ -51,6 +51,24 @@ nav > .nav-container{
 
 /*Main Container*/
 
+main{
+    background-color: gray;
+    display: flex;
+    padding: 30px 150px;
+}
+
 .main-container{
-    position: ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    justify-content: center;
+}
+
+.main-container > div{
+    background-color: white;
+    border: 1px solid black;
+    min-height: 200px;
+    height: 450px;
+    min-width: 100px;
+    width: 300px;
 }
